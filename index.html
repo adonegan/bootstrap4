@@ -8,6 +8,7 @@
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
@@ -24,6 +25,13 @@
         </div>
     </nav>
     <article class="container mt-3">
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <div class="alert alert-warning">
+                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!</a>
+                </div>
+            </div>
+        </div>
         <!-- call out -->
         <div class="row">
             <div class="col-12">
@@ -49,18 +57,31 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                        <p>-Jane Doe</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                                <p>-Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I haven't been sober for months!</p>
-                        <p>-Jane Doe</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="images/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I haven't been sober for months!</p>
+                                <p>-Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </section>
         <!--/.quotes-->
         <hr>
@@ -74,7 +95,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 1</h3>
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">New!</span></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam similique vero odio voluptatibus consequuntur voluptatem placeat autem perspiciatis, odit vel eveniet repellendus cum reprehenderit veniam qui voluptas nobis praesentium
                             illo repellat repudiandae eaque impedit fugit aliquid soluta ea. Architecto maxime sint iste, id obcaecati, quisquam mollitia praesentium quam accusantium neque?</p>
                         <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
@@ -82,7 +103,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 2</h3>
+                        <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis iure sunt illum blanditiis cupiditate vero ex quia tempora dolor, vitae, mollitia est consectetur alias maiores delectus, quaerat dicta soluta deleniti, dolorem
                             et aspernatur a optio. Porro veritatis, iste qui accusantium molestias ad sapiente suscipit eveniet atque et sunt nam reprehenderit?</p>
                         <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
@@ -90,7 +111,7 @@
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3>Feature 3</h3>
+                        <h3><i class="fas fa-times-circle d-none d-sm-inline"></i> Feature 3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad repudiandae, quos non a velit dolores at, molestiae expedita doloribus repellat nihil aliquid iure ullam consequuntur explicabo. Hic assumenda, reprehenderit corporis
                             laborum? Nulla esse laudantium quia non doloribus doloremque tenetur possimus autem rerum adipisci eaque veritatis recusandae, a nemo eum itaque.</p>
                         <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
