@@ -2,10 +2,44 @@ body {
     font-family: 'ZCOOL XiaoWei', serif;
 }
 
-.alert-container {
+.alert-container {}
+
+.callout-container {
+    height: vh;
+
+    background: url("../images/whiskey2.jpg") no-repeat top right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+}
+
+.quotes-container {
+    margin: 30px;
+ 
+}
+
+.features-container {}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: yellow;
+    font-weight: bold;
+    margin-bottom: 30px;
     
 }
 
-.features-container {
-    
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
 }
+
